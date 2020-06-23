@@ -1,0 +1,178 @@
+{
+  "items": [
+    {
+      "title": "3739 LB, Hollandsche Rading, Utrecht, Nederland",
+      "id": "here:cm:namedplace:26325864",
+      "resultType": "locality",
+      "localityType": "postalCode",
+      "address": {
+        "label": "3739 LB, Hollandsche Rading, Utrecht, Nederland",
+        "countryCode": "NLD",
+        "countryName": "Nederland",
+        "state": "Utrecht",
+        "county": "De Bilt",
+        "city": "Hollandsche Rading",
+        "postalCode": "3739 LB"
+      },
+      "position": {
+        "lat": 52.17428,
+        "lng": 5.19736
+      },
+      "mapView": {
+        "west": 5.19686,
+        "south": 52.17418,
+        "east": 5.19787,
+        "north": 52.17439
+      },
+      "scoring": {
+        "queryScore": 0.71,
+        "fieldScore": { "postalCode": 0.83 }
+      }
+    },
+    {
+      "title": "3739 LD, Hollandsche Rading, Utrecht, Nederland",
+      "id": "here:cm:namedplace:26325866",
+      "resultType": "locality",
+      "localityType": "postalCode",
+      "address": {
+        "label": "3739 LD, Hollandsche Rading, Utrecht, Nederland",
+        "countryCode": "NLD",
+        "countryName": "Nederland",
+        "state": "Utrecht",
+        "county": "De Bilt",
+        "city": "Hollandsche Rading",
+        "postalCode": "3739 LD"
+      },
+      "position": {
+        "lat": 52.17241,
+        "lng": 5.18088
+      },
+      "mapView": {
+        "west": 5.18013,
+        "south": 52.17159,
+        "east": 5.1815,
+        "north": 52.17359
+      },
+      "scoring": {
+        "queryScore": 0.71,
+        "fieldScore": { "postalCode": 0.83 }
+      }
+    },
+    {
+      "title": "3739 NB, Hollandsche Rading, Utrecht, Nederland",
+      "id": "here:cm:namedplace:26325871",
+      "resultType": "locality",
+      "localityType": "postalCode",
+      "address": {
+        "label": "3739 NB, Hollandsche Rading, Utrecht, Nederland",
+        "countryCode": "NLD",
+        "countryName": "Nederland",
+        "state": "Utrecht",
+        "county": "De Bilt",
+        "city": "Hollandsche Rading",
+        "postalCode": "3739 NB"
+      },
+      "position": {
+        "lat": 52.17603,
+        "lng": 5.16689
+      },
+      "mapView": {
+        "west": 5.16434,
+        "south": 52.17393,
+        "east": 5.16929,
+        "north": 52.17903
+      },
+      "scoring": {
+        "queryScore": 0.71,
+        "fieldScore": { "postalCode": 0.83 }
+      }
+    },
+    {
+      "title": "3739 ND, Hollandsche Rading, Utrecht, Nederland",
+      "id": "here:cm:namedplace:26325872",
+      "resultType": "locality",
+      "localityType": "postalCode",
+      "address": {
+        "label": "3739 ND, Hollandsche Rading, Utrecht, Nederland",
+        "countryCode": "NLD",
+        "countryName": "Nederland",
+        "state": "Utrecht",
+        "county": "De Bilt",
+        "city": "Hollandsche Rading",
+        "postalCode": "3739 ND"
+      },
+      "position": {
+        "lat": 52.18024,
+        "lng": 5.13332
+      },
+      "mapView": {
+        "west": 5.1235,
+        "south": 52.17979,
+        "east": 5.14314,
+        "north": 52.18074
+      },
+      "scoring": {
+        "queryScore": 0.71,
+        "fieldScore": { "postalCode": 0.83 }
+      }
+    },
+    {
+      "title": "3739 KB, Hollandsche Rading, Utrecht, Nederland",
+      "id": "here:cm:namedplace:26325876",
+      "resultType": "locality",
+      "localityType": "postalCode",
+      "address": {
+        "label": "3739 KB, Hollandsche Rading, Utrecht, Nederland",
+        "countryCode": "NLD",
+        "countryName": "Nederland",
+        "state": "Utrecht",
+        "county": "De Bilt",
+        "city": "Hollandsche Rading",
+        "postalCode": "3739 KB"
+      },
+      "position": {
+        "lat": 52.17505,
+        "lng": 5.17949
+      },
+      "mapView": {
+        "west": 5.1791,
+        "south": 52.17441,
+        "east": 5.17988,
+        "north": 52.17569
+      },
+      "scoring": {
+        "queryScore": 0.71,
+        "fieldScore": { "postalCode": 0.83 }
+      }
+    },
+    {
+      "title": "3739 KD, Hollandsche Rading, Utrecht, Nederland",
+      "id": "here:cm:namedplace:26325886",
+      "resultType": "locality",
+      "localityType": "postalCode",
+      "address": {
+        "label": "3739 KD, Hollandsche Rading, Utrecht, Nederland",
+        "countryCode": "NLD",
+        "countryName": "Nederland",
+        "state": "Utrecht",
+        "county": "De Bilt",
+        "city": "Hollandsche Rading",
+        "postalCode": "3739 KD"
+      },
+      "position": {
+        "lat": 52.17672,
+        "lng": 5.18009
+      },
+      "mapView": {
+        "west": 5.17975,
+        "south": 52.17548,
+        "east": 5.18056,
+        "north": 52.17805
+      },
+      "scoring": {
+        "queryScore": 0.71,
+        "fieldScore": { "postalCode": 0.83 }
+      }
+    }
+  ]
+}

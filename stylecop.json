@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "documentationRules": {
+      "companyName": "Fvect",
+      "copyrightText": "Copyright (c)\n Aaron Slots, Arthur Heidt, Jeroen de Klerk, Luc van Dijk,\n Ryan van Gemert, Sjanne Flinterman, Thomas Maassen and Tom Barten.\nAll rights reserved."
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    }
+  }
+}

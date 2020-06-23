@@ -1,0 +1,41 @@
+stages:
+  - build
+  - test
+
+cache:
+  key: nuget-cache
+  paths:
+    - .nuget
+
+build:
+  stage: build
+  tags:
+    - docker
+  image: mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+  script:
+    - 'dotnet clean'
+    - 'dotnet restore --locked-mode --packages .nuget'
+    - 'dotnet build --no-restore /warnaserror'
+
+test:
+  stage: test
+  tags:
+    - docker
+  image: mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+  script:
+    - 'dotnet clean'
+    - 'dotnet tool restore'
+    - 'dotnet restore --locked-mode --packages .nuget'
+    - 'dotnet build --no-restore /warnaserror'
+    - 'dotnet test --no-restore /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=opencover --test-adapter-path:. --logger:"junit;LogFilePath=../test-results/{assembly}-test-result.xml;MethodFormat=Class;FailureBodyFormat=Verbose"'
+    - 'dotnet reportgenerator -reports:./Test/TestResults/coverage.opencover.xml -targetdir:./.coverage -reporttypes:"Html;HtmlSummary;PngChart;CsvSummary;TextSummary;LaTeX"'
+    - 'cat ./.coverage/Summary.txt'
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - ./.coverage
+      - ./test-results/*test-result.xml
+    when: always
+    reports:
+      junit:
+      - ./test-results/*test-result.xml

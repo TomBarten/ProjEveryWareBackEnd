@@ -1,0 +1,37 @@
+﻿// <copyright file="TeacherController.cs" company="Fvect">
+// Copyright (c)
+//  Aaron Slots, Arthur Heidt, Jeroen de Klerk, Luc van Dijk,
+//  Ryan van Gemert, Sjanne Flinterman, Thomas Maassen and Tom Barten.
+// All rights reserved.
+// </copyright>
+
+namespace Fvect.Backend.API.V1.Controllers
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Fvect.Backend.API.Abstraction;
+    using Fvect.Backend.Business.Manager.Abstraction;
+    using Fvect.Backend.Data.Database.Model;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Mvc;
+
+    /// <summary>
+    /// Represents a controller for student groups.
+    /// </summary>
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiController]
+    [Authorize(Roles = "Admin")]
+    public class TeacherController : ResourceControllerBase<Teacher, ITeacherManager>
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="TeacherController"/> class.
+        /// </summary>
+        /// <param name="manager">the manager to use.</param>
+        public TeacherController(ITeacherManager manager)
+            : base(manager)
+        {
+        }
+    }
+}

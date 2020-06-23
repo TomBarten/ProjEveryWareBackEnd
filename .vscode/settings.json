@@ -1,0 +1,11 @@
+{
+    "omnisharp.enableRoslynAnalyzers": true,
+    "cSpell.language": "en,nl",
+    "cSpell.words": [
+        "Customizer",
+        "Fvect",
+        "Sjanne",
+        "nuget",
+        "targetdir"
+    ]
+}
